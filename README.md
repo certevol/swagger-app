@@ -12,7 +12,9 @@ You may also see any lint errors in the console.
 
 
 ### Add and Manage Swagger div
-App.js
+In App.js in div SwaggerUI
+
+Insert the varible for changing path (url_IO,url_F_IO, url_PN_BB,url_PN_BB_PA)
 
 <code> url="url/to/your/spec"/</code>
 
