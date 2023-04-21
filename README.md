@@ -14,5 +14,5 @@ You may also see any lint errors in the console.
 ### Add and Manage Swagger div
 App.js
 
-<SwaggerUI url="url/to/your/spec"/>
+<code><SwaggerUI url="url/to/your/spec"/></code>
 
