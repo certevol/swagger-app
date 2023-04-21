@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import SwaggerUI from "swagger-ui-react";
+import "swagger-ui-react/swagger-ui.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          API VIEWER       
       </header>
+     <div>
+        <SwaggerUI className="Swagger" url="https://raw.githubusercontent.com/pagopa/io-functions-services/50a116f/openapi/index.yaml" />
+      </div>
     </div>
   );
 }
